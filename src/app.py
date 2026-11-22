@@ -265,7 +265,7 @@ def render_login_screen():
         with st.container(border=True):
             st.markdown('<div class="section-heading-indigo">Sign In to Continue</div>', unsafe_allow_html=True)
             with st.form("login_form", clear_on_submit=False):
-                full_name = st.text_input("Full Name", value="Vishwanath", placeholder="Enter your name")
+                full_name = st.text_input("Full Name", value="", placeholder="Enter your name")
                 email = st.text_input("Email Address", placeholder="name@example.com")
                 access_code = st.text_input("Access Passcode", type="password", placeholder="Enter any passcode to sign in")
                 submitted = st.form_submit_button("Enter Prediction Studio", type="primary", use_container_width=True)
