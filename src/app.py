@@ -216,6 +216,29 @@ st.markdown(
             font-size: 0.84rem;
             margin-top: 1.5rem;
         }
+
+        [data-testid="stSlider"] label,
+        [data-testid="stSlider"] label p,
+        [data-testid="stSlider"] [data-testid="stWidgetLabel"],
+        [data-testid="stSlider"] [data-testid="stWidgetLabel"] p,
+        [data-testid="stNumberInput"] label,
+        [data-testid="stNumberInput"] label p,
+        [data-testid="stNumberInput"] [data-testid="stWidgetLabel"],
+        [data-testid="stNumberInput"] [data-testid="stWidgetLabel"] p,
+        [data-testid="stTextInput"] label,
+        [data-testid="stTextInput"] label p,
+        [data-testid="stTextInput"] [data-testid="stWidgetLabel"],
+        [data-testid="stTextInput"] [data-testid="stWidgetLabel"] p,
+        [data-testid="stMarkdownContainer"] p,
+        [data-testid="stMarkdownContainer"] span {
+            color: #0f172a !important;
+        }
+
+        [data-testid="stNumberInput"] input,
+        [data-testid="stTextInput"] input {
+            color: #0f172a !important;
+            background-color: #ffffff !important;
+        }
     </style>
     """,
     unsafe_allow_html=True,
